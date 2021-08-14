@@ -8,7 +8,9 @@ The concept of multidimensional scaling is utilized to discover spatial relation
 
 On a data set of one day of campus data and another of one week of campus data I process the data and experiment with various methods of measuring the proximity of access points to create dissimilarity matrices. The results of MDS that are visualized vary depending on how the dissimilarity of points is measured.  
 
-One day of data:  
-
+The notebooks working with one day of data are as follows:
+- DataPreprocessing_OneDay.ipynb takes the raw data and uses SQLite to create 'associations_times.csv'
+- DissimilarityMat_OneDay.ipynb takes 'associations_times.csv' and computes:
+          - efjwenfke
 
 
