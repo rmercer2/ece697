@@ -9,6 +9,18 @@ The concept of multidimensional scaling is utilized to discover spatial relation
 On a data set of one day of campus data and another of one week of campus data I process the data and experiment with various methods of measuring the proximity of access points to create dissimilarity matrices. The results of MDS that are visualized vary depending on how the dissimilarity of points is measured.  
 
 To run multidimensional scaling and visualize the results follow these instructions:  
+- Option 1:
+  - download: MDS_test_OneDay.ipynb, buildings_dissimilarity_mat.csv, building_names.csv, and scaled_buildings_dissimilarity_mat.csv
+  - follow the directions to run within the notebook
+  - when visualizing the result you may change the building names in the test vector to any valid building name (see 'building_names.csv')
+  - you will be able to visualize the results of building dissimilarity matrix using one day of campus data
+  - these dissimilarity matrices used are for average times between: access points, buildings, and buildings scaled
+- Option 2:
+  - download: MDS_2021_04_01_week.ipynb, ds_mat_b_avg.csv, ds_mat_b_min.csv, ds_mat_b_avg_scaled.csv, ds_mat_b_min_scaled.csv, and ds_mat_labels_b.csv
+  - run parts 1 and 2 in the file (imports and function defintions and the training and visualization of MDS results)
+  - I do not recomment trying to run any of the access point matrix parts on your local machine
+  - in running these parts you will notice the differences in computing the dissimilarity matrix and its affect on the results
+  - you may change the test vector to an array of any set of buildings in the 'building_names.csv' file
 
 The notebooks working with one day of data are as follows:
 - DataPreprocessing_OneDay.ipynb 
